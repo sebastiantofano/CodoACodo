@@ -1,0 +1,61 @@
+*{
+    font-family: 'Poppins', sans-serif, 'arial';
+}
+.img-logo {
+    width: 70px;
+
+}
+
+.grid-container-header {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color: #2196F3;
+    padding: 0px;
+
+}
+
+.grid-item-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.nav {
+    justify-content: space-around;
+    background-color: lightcoral;
+    margin-top: 30px;
+}
+
+.nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #65f7ff;
+    padding: 0px;
+
+}
+
+.btn-estudiar {
+    background-color: #4CAF50;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.principal{
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.img-principal{
+    width: 500px;
+}
