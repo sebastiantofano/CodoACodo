@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 400;
+    line-height: 1.43;
+    background-color: #fafafa;
+}
+
+body{
+    font-family: 'Poppins', sans-serif, 'arial';
+    /* "Avenir LTS Regular","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+
+/* sticky header style start */
+.sticky_header {
+    /* background-color: rgb(255, 255, 1);*/
+    background-color:black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: initial;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    cursor: pointer;
+    color: rgba(238, 236, 236, 0.87);
+}
+
+@media (min-width: 1024px){
+
+    .sticky{
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px){
+    .style0{
+        width: 1200px;
+    }
+}
+
+.style0{
+    margin: auto;
+    padding: auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; */
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    
+   
+}
+
+/* sticky header style end */
+
+/* style main Start */
+
+.background{
+    background-color:black;
+}
+
+
+
+.style1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+    
+}
+
+.style2{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: "Avenir Medium";
+}
+
+
+
+.style3{
+    width: 748px;
+    height: 216px;
+    font-family: 'Avenir Black','Poppins', sans-serif, 'arial';
+    font-size: 55px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.style4{
+    color: rgb(241, 241, 233);
+}
+
+.style5{
+    color: rgb(255, 255, 255);
+
+}
+
+@media(max-width: 1024px) {
+    .style1{
+        padding: 75px;
+    }
+}
+
+@media (max-width: 769px){
+    .style2 {
+    width: 300px;
+    height: 16px;
+    margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 330px){
+    .style3{
+        max-width: 244px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 769px){
+    .style3{
+        max-width: 300px;
+        height: 144px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1024px){
+    .style3{
+        /* max-width: 700px; */
+        line-height: 1.3;
+    }
+}
+
+/* s div container origen,historia,img style start */
+.background-origen{
+    background-color:#d6d6cb;
+    position:relative;
+}
+
+.style6{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 72px;
+    padding-bottom: 52px;
+
+}
+
+@media (max-width: 1024px){
+    .style6{
+        flex-direction: column;
+        height: 100%;
+        padding-top: 55px;
+    }
+}
+
+@media (max-width: 769px){
+    .style6{
+        padding-top: 0px;
+        height: 100%;
+    }
+}
+
+.style7{
+    max-width: 690px;
+    background-color: #d6d6cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 769px){
+    .style7{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 40px 16px 24px;
+    }
+}
+
+@media (max-width: 1024px){
+    .style7{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.style8{
+    height: 16px;
+    font-family: 'Roboto', sans-serif, 'arial',"Avenir Medium";
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    color: rgb(3, 3, 3);
+    text-transform: uppercase;
+    opacity: 0.87;
+}
+
+@media (max-width: 1024px){
+    .style8{
+        display: none;
+    }
+}
+
+.style9{
+    height: 24px;
+    font-family: "Avenir Heavy";
+    font-size: 37px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.5;
+    letter-spacing: 0.36px;
+    color: rgb(0, 0, 0);
+    margin-top: 32px;
+    z-index: 2;
+    opacity: 0.87;
+}
+
+
+
+@media (max-width: 769px){
+    .style9{
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: 0.18px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 330px){
+    .style9{
+        font-size: 22px;
+        width: 180px;
+    }
+}
+
+.style10{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+@media (max-width: 769px){
+    .style10{
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.44px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1024px){
+    .style10{
+        height: auto;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.44px;
+        margin-top: 10px;
+    }
+}
+
+.style11{
+    margin: 20px 0px 0px;
+    font-family: "Noto Sans","Liberation Sans","Avenir LTS Semi Bold";
+    font-size: larger;
+
+}
+
+@media (max-width:330px){
+    .style11{
+        margin-top: 30px;
+    }
+}
+
+.style12{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    max-width: 506px;
+}
+
+@media (max-width: 1200px){
+    .style12{
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1024px){
+    .style12{
+        position: relative;
+        align-self: center;
+    }
+}
+
+@media (max-width: 769px){
+    .style12{
+        height: 360px;
+    }
+}
+
+.style13{
+    object-position: 80% 20%;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.style12 img{
+    max-width: 100%;
+    filter: grayscale(90%);
+}
+
+
+
+/*  div container origen,historia,img style style end */
+
+/* style section team start */
+
+.style14{
+    text-align: center;
+    padding: 2rem 0px;
+    background-color:#121212e8;
+}
+
+@media (max-width: 769px){
+    .style14 {
+        padding: 1.5rem 0px;
+    }
+
+}
+
+.text_team{
+    display:inline-block;
+    text-align:center;
+    
+}
+
+.style15{
+    text-align: center;
+    font-size: 48px;
+    width: 100%;
+    font-family: "Avenir Heavy";
+    letter-spacing: 0px;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.87);
+    z-index: 1;
+    position: relative;
+    line-height: 1;
+    display: inline;
+    justify-content: center;
+}
+
+h2.texts_header{
+    color:whitesmoke;
+
+}
+
+@media (max-width: 1200px){
+    .style15 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .style15 {
+        font-size: 30px;
+    }
+
+}
+
+.text_line{
+    height: 16px;
+    position: relative;
+    top: -15px;
+    z-index: 0;
+    width: 344.3px;
+    margin: auto;
+}
+
+@media (max-width: 1024px){
+    .text_line {
+        height: 8px;
+        top: -10px;
+    }
+
+}
+
+/* slider style start */
+.slider::-webkit-scrollbar, html::-webkit-scrollbar {
+    appearance: none;
+}
+
+.slider::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb  {
+    cursor: move;
+    background-color: rgb(213, 213, 213);
+    border-radius: 15px;
+    border: none;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    height: 56vh;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 2px;
+    box-shadow: 2px 10px 28px 15px rgb(0 0 0 / 61%);
+    scroll-behavior: smooth;
+
+}
+
+.slider img{
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(60%);
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 1200px){
+    .slider{
+        width: 80%;
+        height: 78vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+@media (max-width: 769px){
+    .slider{
+        height: 120vh;
+    }
+}
+
+/* slider style end */
+
+/* style section team end */
+
+/* style section investors start */
+.style16 {
+    background-color: #d6d6cb;
+    text-align: center;
+    padding: 2rem 0px;
+}
+
+@media (max-width: 769px){
+    .style16{
+        padding: 1.5rem 0px;
+    }
+}
+
+/* .text_line{
+    height: 16px;
+    position: relative;
+    top: -15px;
+    z-index: 0;
+    width: 239.8px;
+    background-color: rgb(255, 255, 1);
+    margin: auto;
+} */
+
+/* @media (max-width: 769px){
+    .text_line{
+        height: 8px;
+        top: -10px;
+    }
+} */
+
+.style17{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+
+
+.style_card::-webkit-scrollbar {
+    appearance: none;
+}
+
+.style_card::-webkit-scrollbar-thumb {
+    cursor: move;
+    background-color: rgb(213, 213, 213);
+    border-radius: 15px;
+    border: none;
+}
+
+.style18{
+    margin: auto;
+    width: 100%;
+}
+
+.style19{
+    display: flex;
+    overflow: auto;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 769px){
+    .style19{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto hidden;
+        padding: 1rem;
+        scroll-snap-type: x mandatory;
+    }
+}
+
+@media (max-width: 330px){
+    .style19{
+        padding-left: 16px;
+        padding-top: 0px;
+    }
+}
+.style19 .style_card{
+    flex: 0 0 auto;
+    margin: 1rem;
+    width: 38%;
+}
+
+@media (max-width: 769px){
+    .style19 .style_card{
+        display: block;
+        flex: 0 0 auto;
+        width: 275px;
+        min-height: 370px;
+        max-height: 370px;
+        padding: 20px;
+        text-align: left;
+        margin-left: 0px;
+        overflow: auto;
+        scroll-snap-align: center;
+    }
+}
+
+@media (max-width: 769px){
+    .style20{
+        display: none;
+        position: relative;
+        min-height: 320px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1024px){
+    .style20{
+        align-self: center;
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 1200px){
+    .style20{
+        margin-top: -18px;
+    }
+}
+
+.style20{
+
+    align-self: flex-end;
+    max-width: 100%;
+    user-select: none;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 7px 8px -4px, rgb(0 0 0 / 12%) 0px 5px 22px 4px, rgb(0 0 0 / 14%) 0px 12px 17px 2px;
+    padding: 0.5rem 2rem;
+    min-height: 290px;
+    max-height: 290px;
+    overflow: auto;
+    background-color: rgb(255 255 255 / 73%);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+.style21{
+    text-align: left;
+    position: relative;
+}
+
+.style22{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 0px;
+}
+.style23{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 75px;
+}
+
+@media (max-width: 769px){
+    .style23{
+        position: absolute;
+        bottom: 0px;
+        width: 90%;
+    }
+}
+
+.inv1{
+    border-radius: 50%;
+    object-fit: contain;
+    height: 147px;
+    width: 147px;
+    min-height: 147px;
+    min-width: 147px;
+    margin-right: 32px;
+
+}
+
+.style_info img{
+    max-width: 100%;
+}
+
+@media (max-width: 769px){
+    .inv1{
+        width: 64px;
+        height: 64px;
+        min-height: 64px;
+        min-width: 64px;
+        margin-right: 0.75rem;
+    }
+}
+
+.style24{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    font-family: "Avenir Heavy";
+}
+
+@media (max-width: 769px){
+    .style24{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 769px){
+    .style25{
+        text-align: left;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 320px){
+    .style25{
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 3;
+        letter-spacing: 2.38px;
+        color: rgba(0, 0, 0, 0.87);
+        margin-top: 0px;
+    }
+}
+
+
+.style25{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.38px;
+    color: rgba(0, 0, 0, 0.87);
+    /* margin-top: -20px; */
+}
+
+
+
+
+
+
+/* style section investors end */ 
+
+.name{
+    color:red;
+}
+
+.name::after{
+    content: '<code> to </code>';
+}
+
+
+
+
+
+/* style main end */
