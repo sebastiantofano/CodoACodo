@@ -75,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     alert("Muchas gracias por enviar su consulta :) ");
+    
     this.submit();
   }
 
