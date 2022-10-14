@@ -53,7 +53,7 @@ body {
     border-radius: 5px;
     overflow: hidden;
     margin: 10px 10px;
-    height: 300px;
+    height: 280px;
     width: 1200px;
 }
 
@@ -81,7 +81,9 @@ body {
 }
 
 
-
+.ultimas-noticias{
+    margin-left: 20px;
+}
 
 
 
@@ -191,8 +193,7 @@ body {
     position: relative;
     overflow: hidden;
     height: 100%;
-
-    width: 45%;
+    width: 55%;
     display: inline-block;
 }
 

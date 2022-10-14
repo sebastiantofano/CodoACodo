@@ -34,7 +34,14 @@
   
 }
 
+.footer{
+   text-align: center;
 
+}
+
+.clima{
+    display:inline-block;
+}
 
 .principal {
     flex-direction: column;
