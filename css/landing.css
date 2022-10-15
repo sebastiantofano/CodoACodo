@@ -34,7 +34,14 @@
   
 }
 
+.footer{
+   text-align: center;
 
+}
+
+.clima{
+    display:inline-block;
+}
 
 .principal {
     flex-direction: column;
@@ -67,6 +74,7 @@
     background-color: #4CAF50;
     font-size: 1.5rem;
     width: 50%;
+    font-weight: bold;
     margin: 20px auto;
     border: none;
     color: white;
@@ -75,6 +83,7 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 
