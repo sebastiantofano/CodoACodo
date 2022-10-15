@@ -145,63 +145,35 @@
                     nuestra visión.
                 </p>
             </div>
-            <div class="styles_custom_slide style18">
-                <div class="style_cards style19">
-                    <div class="style_card style20">
-                        <div class="styles_testimony style21">
-                            <p class="style_testimony style22">
-                                “Dada la gran demanda insatisfecha de ingenieros de software, crear una escuela en América
-                                Latina para desarrollar esos ingenieros es una gran oportunidad, y este es el equipo para
-                                tener éxito. Invertimos en Code to Code porque el equipo tiene talento y está orientado a la
-                                misión”.
-                            </p>
-                        </div>
-                        <div class="styles_info style23">
-                            <img src="./images/ycombinator.png" loading="lazy" class="styles_img inv1">
-                            <div>
-                                <p class="style_name style24">Tim Brady</p>
-                                <p class="style_job style25">YCombinator Partner</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="style_card style20">
-                        <div class="styles_testimony style21">
-                            <p class="style_testimony style22">
-                                “En un mundo remoto, puedes acceder al talento en todas partes y Code to Code está
-                                capacitando a los mejores ingenieros de Latam”.
-                            </p>
-                        </div>
-                        <div class="styles_info style23">
-                            <img src="./images/DraperLogo.png" loading="lazy" class="styles_img inv1">
-                            <div>
-                                <p class="style_name style24">Tim Draper</p>
-                                <p class="style_job style25">Founder Draper University</p>
-                            </div>
+            <!-- api section -->
+            <div id="app">
+                <div class="styles_custom_slide style18">
+                  <div class="style_cards style19">
+          
+                    <div v-for="inversor of sponsors" class="style_card style20">
+                      <div class="styles_testimony style21">
+          
+                        <p class="style_testimony style22">{{inversor.review}}</p>
+                        
+                      </div>
+                      <div class="styles_info style23">
+          
+                        <img :src="inversor.logo" :alt="inversor.company" loading="lazy" class="styles_img inv1">
+          
+                        <div>
+                          <p class="style_name style24">{{inversor.name}}</p>
+                          <p class="style_job style25">{{inversor.job}}</p>
                         </div>
                     </div>
-                    <div class="style_card style20">
-                        <div class="styles_testimony style21">
-                            <p class="style_testimony style22">
-                                “El papel de Code to Code en la provisión de ingreso asequible para la educación técnica de
-                                alta calidad puede ayudar a abordar los desafíos multifacéticos de la persistente
-                                desigualdad de ingresos, el alto desempleo y la escasez de trabajadores calificados que
-                                enfrentan tanto los estudiantes como los empleadores en América Latina”.
-    
-                            </p>
-                        </div>
-                        <div class="styles_info style23">
-                            <img src="./images/accion.png" loading="lazy" class="styles_img inv1">
-                            <div>
-                                <p class="style_name style24">Michael Schlein</p>
-                                <p class="style_job style25">CEO and President</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> 
+            <!-- api section end-->
+            
         </div>   
     </main>
     <footer></footer>
+      <!-- vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- my js -->
+  <script src="./js/api.js"></script>
 </body>
 </html>
