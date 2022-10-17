@@ -1,31 +1,8 @@
-* {
-    font-family: 'Poppins', sans-serif, 'arial';
+
+*{
     background-color: #333;
     color: white;
 }
-
-.header {
-    text-align: center;
-    color: white;
-}
-
-.navbar {
-    display: flex;
-    background-color: #333;
-}
-
-.navbar a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 .grid-container-main {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -33,8 +10,6 @@
     padding: 0px;
   
 }
-
-
 
 .principal {
     flex-direction: column;
@@ -54,7 +29,7 @@
 
 .text-titulo{
     font-size: 2rem;
-    margin-top: 100px;
+
     margin-left: 40px;
     
 }
@@ -64,7 +39,7 @@
     margin-left: 40px; 
 }
 .btn-estudiar {
-    background-color: #4CAF50;
+    background-color: #1a66ff;
     font-size: 1.2rem;
     width: 50%;
     margin: 20px auto;
@@ -87,7 +62,7 @@
 }
 
 table {
-    background-color: #4CAF50;
+    background-color: #1a66ff;;
     font-size: 1.25rem;
     width: 50%;
     margin: 20px auto;
@@ -97,3 +72,4 @@ table {
 td.center {
     text-align: center;
 }
+
