@@ -37,7 +37,7 @@ body {
     position: relative;
     text-align: left;
     overflow: hidden;
-    padding: 30px;
+    padding: 10px;
     height: 100%;
     float: left;
     width: 40%;
@@ -216,4 +216,36 @@ body {
 
 .product-image:hover img {
     transform: scale(1.2, 1.2);
+}
+
+@media screen and (max-width: 768px) {
+
+    .information{
+        display: none;
+    }
+
+    .btn{
+        margin-left: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .information{
+        display: none;
+    }
+
+    .btn{
+        margin-left: auto;
+        margin-bottom: 40px;
+    }
+  
+    .product-image{
+        display: none;
+    }
+
+    .product-details{
+        width: 100%;
+    }
 }

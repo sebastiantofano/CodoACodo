@@ -30,7 +30,9 @@
 }
 
 .img-principal {
-    width: 500px;
+    width: 100%;
+    float: right;
+    height: 90%;
     
 }
 
@@ -50,7 +52,7 @@
     font-size: 1.5rem;
     width: 50%;
     font-weight: bold;
-    margin: 20px auto;
+    margin: 80px auto;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -62,7 +64,7 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 
     .row,
     .navbar {
@@ -81,5 +83,9 @@
         grid-template-columns: 100% 0%;
         padding: 0px;
       
+    }
+
+    .btn-estudiar {
+        width: 100%;
     }
 }
