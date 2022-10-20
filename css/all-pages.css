@@ -269,7 +269,7 @@ iframe.iframe {
 
 
 /* CSS pantallas de 320px o inferior */
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 
 
     .row h1 {

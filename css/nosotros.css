@@ -257,10 +257,6 @@ h2.texts_header{
 
 }
 
-
-
-
-
 .text_line{
     height: 16px;
     position: relative;
@@ -285,14 +281,13 @@ h2.texts_header{
 .slider{
     display: flex;
     width: 100%;
-    height: 56vh;
+    max-height: 120vh;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     overflow-y: hidden;
     border-radius: 2px;
     box-shadow: 2px 10px 28px 15px rgb(0 0 0 / 61%);
     scroll-behavior: smooth;
-
 }
 
 .slider img{
@@ -354,7 +349,7 @@ h2.texts_header{
 .style19 .style_card{
     flex: 0 0 auto;
     margin: 1rem;
-    width: 38%;
+    width: 40%;
 }
 
 
@@ -490,7 +485,7 @@ h2.texts_header{
     }
 
     .style19 .style_card {
-        width: 295px;
+        /* width: 100%; */
     }
 
     .inv1 {
@@ -590,9 +585,10 @@ h2.texts_header{
     .style19 .style_card{
         display: block;
         flex: 0 0 auto;
-        width: 280px;
-        min-height: 370px;
-        max-height: 370px;
+        /* width: 280px; */
+        /* min-height: 370px;
+        max-height: 370px; */
+        /* width: 380px; */
         padding: 20px;
         text-align: left;
         margin-left: 0px;
@@ -696,7 +692,7 @@ h2.texts_header{
     }
 
     .style19 .style_card {
-        width: 47%;
+        width: 100%;
     }
 
     /* .slider img{
@@ -711,7 +707,7 @@ h2.texts_header{
 
 @media (max-width: 320px){
 .style19 .style_card {
-    width:295px;
+    /* width:295px; */
 }
 .slider {
     height: 100%;
